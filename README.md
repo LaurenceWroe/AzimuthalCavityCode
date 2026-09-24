@@ -4,6 +4,16 @@ Code associated with **Controlling the transverse multipole components in rf cav
 
 Original code used for the paper is available on an earlier commit. On this commit, the code and workflow has been streamlined by GPT-6 Astra to improve ease of use and add clarity.
 
+## What the code does
+
+- **Cavity shape generation:** Calculates cavity boundaries that produce specified combinations of azimuthal multipoles, including shapes used to compensate coupler-induced field asymmetries.
+- **CST field-map processing and analysis:** Converts exported electric and magnetic fields into RF-Track-compatible maps, integrates fields along particle trajectories, and extracts azimuthal multipole content.
+- **Particle tracking with RF-Track:** Tracks beams through cavity fields and beamlines to study momentum kicks, compare tracking with analytical predictions, and investigate transverse beam uniformisation.
+- **Analytical calculations:** Includes Mathematica notebooks and Octave routines for field integration, multipole kick predictions, and uniformisation theory.
+- **Plotting and validation:** Generates cavity-shape plots, displays retained field profiles and beam distributions, and provides numerical checks and small runnable examples.
+
+The original research scripts are preserved in `research/`; maintained configurations and runnable entry points are in `configs/`, `workflows/`, and `examples/`. Full cavity simulations require external CST field maps, which are not included.
+
 ## Quick start
 
 From the repository root, with Octave and its signal package installed:
