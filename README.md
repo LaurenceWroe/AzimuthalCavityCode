@@ -2,7 +2,7 @@
 
 Code associated with **Controlling the transverse multipole components in rf cavity modes using the azimuthal modulation method**, L. M. Wroe, W. Wuensch and R. J. Apsimon, PRAB **28**, 082002 (2025). [Paper](https://doi.org/10.1103/tjgp-gjq7).
 
-This repository preserves the surviving research code and provides maintained GNU Octave entry points. It is not a frozen publication release: some original scripts contain later experiments. Dense CST maps were removed and are not bundled. A small analytical field map exercises the software without replacing the missing research data.
+Original code used for the paper is available on an earlier commit. On this commit, the code and workflow has been streamlined by GPT-6 Astra to improve ease of use and add clarity.
 
 ## Quick start
 
