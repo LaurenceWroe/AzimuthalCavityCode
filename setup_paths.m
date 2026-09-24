@@ -4,6 +4,8 @@ root = fileparts(mfilename('fullpath'));
 addpath(fullfile(root, 'src'));
 addpath(fullfile(root, 'examples'));
 addpath(fullfile(root, 'tests'));
+addpath(fullfile(root, 'configs'));
+addpath(fullfile(root, 'workflows'));
 if exist('OCTAVE_VERSION', 'builtin')
     pkg('load', 'signal');
 end

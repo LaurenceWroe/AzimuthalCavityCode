@@ -6,9 +6,11 @@ function field = convert_cst_fields(e_file, h_file, output_file)
 % All grid points must be present once, in matching E/H grids.
 e = dlmread(e_file, '', 2, 0);
 h = dlmread(h_file, '', 2, 0);
-if size(e,2) ~= 9 || size(h,2) ~= 9 || any(~isfinite(e(:))) || any(~isfinite(h(:)))
-    error('Azimuthal:InvalidExport', 'Expected finite CST arrays with nine columns.');
+if size(e,2) ~= 9 || size(h,2) ~= 9 || any(isinf(e(:))) || any(isinf(h(:))) || ...
+   any(any(~isfinite(e(:,1:3)))) || any(any(~isfinite(h(:,1:3))))
+    error('Azimuthal:InvalidExport', 'Expected nine columns, finite coordinates and no infinite fields.');
 end
+% NaN field samples may mark conductor walls in RF-Track; preserve them.
 ecoords = e(:,1:3); hcoords = h(:,1:3);
 ecoords(abs(ecoords) < 1e-12) = 0;
 hcoords(abs(hcoords) < 1e-12) = 0;

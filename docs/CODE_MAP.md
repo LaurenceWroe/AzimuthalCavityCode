@@ -1,5 +1,20 @@
 # Paper and code map
 
+## Maintained entry points
+
+| Task | Entry |
+| --- | --- |
+| Benchmark / momentum scan | `study_config('benchmark')`, `run_study('benchmark','analytic'/'track'/'scan',cfg)` |
+| Corrected shape / coupler map comparison | `study_config('coupler')`, `run_study('coupler','analytic'/'analyse',cfg)` |
+| Uniformisation | `uniformisation_config('tm410'/'superposed'/'tm4610')`, `run_study('uniformisation','analytic'/'track',cfg)` |
+| CST conversion | `convert_cst_fields(e_file,h_file,output_file)` |
+| Small native example | `demo_rf_map` |
+| Notebook reading copies | `notebooks/` |
+
+The slash-separated mode names in this table denote alternatives, not executable Octave syntax. See the README for executable examples and PARAMETERS.md for provenance and limits.
+
+## Archived sources
+
 All paths below are relative to `research/`. Associations are based on the code
 contents, equations, parameter values and stored data; they are not a claim that
 each file's current settings exactly reproduce a published figure.

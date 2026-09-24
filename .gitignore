@@ -1,4 +1,5 @@
-# No Git repository has been initialized. These rules are for a later push.
+# Local results, dense maps and compiled dependencies stay outside Git.
+__pycache__/
 .DS_Store
 *.asv
 *~

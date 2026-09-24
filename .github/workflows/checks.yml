@@ -1,0 +1,24 @@
+name: Map-free checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  octave:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y octave octave-signal octave-statistics gnuplot-nox fonts-freefont-otf python3
+      - name: Verify archive and notebook extraction
+        run: |
+          python3 tests/verify_collection.py
+          python3 tools/extract_notebook_inputs.py --check
+      - name: Numerical checks without proprietary dependencies
+        run: octave --no-init-file --no-site-file --no-gui --quiet --eval 'disp(version); pkg list; setup_paths; run_checks(false); run_workflow_checks(false);'
+      - name: Render gallery
+        run: octave --no-init-file --no-site-file --no-gui --quiet --eval "addpath('tools'); render_gallery;"

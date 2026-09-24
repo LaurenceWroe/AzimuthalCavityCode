@@ -38,3 +38,12 @@ and checksum for every copied file. The original workspace was not edited.
 No dense maps, CST simulations or synthetic substitutes for the paper's maps
 were generated. The synthetic grid used in the converter test is tiny and
 temporary; it is strictly a software-format test.
+
+## Reproducibility cleanup
+
+- Added named benchmark, coupler and three uniformisation configurations and `run_study` dispatch. These are maintained extractions, not literal execution of overwritten historical settings.
+- Added external-map resolution, grid validation, complex phasor preservation, ring voltage/Fourier analysis, fixed-strength native tracking and analytical theory. Full optimisers and CST tuning remain archival. Formula and phase differences are explicit in PARAMETERS.md.
+- Added clean-start native module setup, a small analytic fixture, independent analytical checks, missing-input checks, native integration tests and Ubuntu CI. Native constructors must be initialized in each calling function's scope.
+- CST conversion preserves conductor NaNs while rejecting infinite fields/nonfinite coordinates.
+- Added structural input-only notebook extraction and a captioned gallery. Original files retain their checksums; `research/README.md` is new navigation guidance.
+- No licence was assigned; external binaries and dense maps remain excluded.

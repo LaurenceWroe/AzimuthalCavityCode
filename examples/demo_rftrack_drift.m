@@ -4,8 +4,7 @@ function result = demo_rftrack_drift()
 if ~exist('OCTAVE_VERSION', 'builtin')
     error('Azimuthal:OctaveRequired', 'This RF-Track interface uses GNU Octave.');
 end
-pkg('load', 'statistics');
-RF_Track;
+rftrack_init(); RF_Track;
 mass = RF_Track.electronmass;
 pz = 10; gamma = sqrt(1+(pz/mass)^2);
 phase = Load_ConcentricBeam_2(6, 24, 8, gamma, 0);

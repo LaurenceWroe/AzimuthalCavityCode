@@ -1,7 +1,7 @@
 # Validation record
 
 Collection checked on 24 September 2026, macOS, GNU Octave 10.3.0,
-signal 1.4.7, statistics 1.8.0 and RF-Track 2.5.3. No Git operations were used.
+signal 1.4.7, statistics 1.8.0 and RF-Track 2.5.3. The collection is now versioned in a private GitHub repository.
 
 ## Passed
 
@@ -26,7 +26,7 @@ signal 1.4.7, statistics 1.8.0 and RF-Track 2.5.3. No Git operations were used.
   in mm/c. This is a runtime/helper check, not a cavity-field test.
 - **Plotting:** all three plotting examples rendered to PNG using Octave's
   gnuplot backend. Generated examples are in `outputs/` and excluded from
-  future Git tracking. The shapes and distribution plots were visually checked.
+  Git tracking. The shapes and distribution plots were visually checked.
 
 The numerical suite exits successfully. This Octave installation prints
 `ignoring const execution_exception& while preparing to exit` even after a
@@ -54,3 +54,11 @@ The checksum check and complete map-free suite also passed from the final
 The runtime examples therefore do not need the original code workspace.
 The native RF-Track installation remains an external dependency. The final
 run log is `outputs/relocated-checks.log`.
+
+## Maintained workflows (24 September 2026)
+
+Clean Octave startup (`--no-init-file --no-site-file`) with explicit `RF_TRACK_PATH` passed both suites. New checks cover the monopole/dipole analytical limits, an independent finite-difference Panofsky–Wenzel derivative, named configurations, the explicit factor-of-two convention, actionable missing-map errors, analytic transit-time voltage and ring Fourier decomposition.
+
+Native RF-Track 2.5.3 passed the ideal-map demo: predicted and tracked on-axis gains both 0.0031808949 MeV/c (linear interpolation, 10000 MeV/c input). Small generated order-4/6 fields also exercised normalisation, the uniformisation beamline and a two-momentum scan. These tests check software integration and finite transport; they do not validate the publication's missing CST maps or optimised distributions. The research default remains cubic interpolation; the coarse fixture shows why interpolation/grid convergence matters.
+
+All 252 archived files still match their hashes. The two input-only notebook copies are checked against a structural extraction of the originals (2 and 24 Input/Code cells); no fresh Mathematica evaluation is claimed. The gallery was rendered and inspected. Ubuntu CI checks archive integrity, extraction, map-free numerical tests and rendering without proprietary dependencies; see the repository Actions log for the actual run status.
