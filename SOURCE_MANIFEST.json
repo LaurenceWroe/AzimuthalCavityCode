@@ -1,0 +1,1514 @@
+[
+  {
+    "source": "Azimuthal/customcolormap.m",
+    "collected": "research/Azimuthal/customcolormap.m",
+    "bytes": 6882,
+    "sha256": "1ffce05f72287cf183475d0dd3b85901595753956cb992114ead1c80614a42bb"
+  },
+  {
+    "source": "Mathematica/250211_CavityIntegration.nb",
+    "collected": "research/Mathematica/250211_CavityIntegration.nb",
+    "bytes": 70303,
+    "sha256": "0a4f825cb0f022c608a872af113e3c7722ecacde491160f03a1462735cfc6647"
+  },
+  {
+    "source": "Mathematica/250211_IPAC_7.nb",
+    "collected": "research/Mathematica/250211_IPAC_7.nb",
+    "bytes": 25075547,
+    "sha256": "74c57a8f1bebf292b4199b72df97f8562a0de21667427c3540fffa644754812a"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_0.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_0.0.mat",
+    "bytes": 5535,
+    "sha256": "b482fbbcdb7aae53244bb26b6656f524086106b9fe8f5f65599884612b982ef1"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_1.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_1.0.mat",
+    "bytes": 5603,
+    "sha256": "7de2b1b924a3da2b692b0c9ddc91f1f460468315a57c1286e7466790bd37c97d"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_10.0.mat",
+    "bytes": 5912,
+    "sha256": "8836204a9fdd564d052e46b0847fdc097ca16cc5767740f557262d979ed41594"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_2.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_2.0.mat",
+    "bytes": 5590,
+    "sha256": "1f32e128182829831accb27d305a9036f92a33834776b43c5a4658382d7920d7"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_3.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_3.0.mat",
+    "bytes": 5607,
+    "sha256": "6e8157d03d9b52c0623c3d561e8fa20139d4772e755f4087ffb4788aa5fdcaf6"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_4.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_4.0.mat",
+    "bytes": 5586,
+    "sha256": "522fb3e1a6ced40555770017e86a13504b2c9863eb3306d143e26d14aaa25e17"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_5.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_5.0.mat",
+    "bytes": 5584,
+    "sha256": "a445c61d0dc80f55a8dfc41e46b775f994c95bfa3420ec5cd45a63691eb59262"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_6.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_6.0.mat",
+    "bytes": 5750,
+    "sha256": "e581810e818775abb28b9c61496485b69d0832a4a642f71cbf5710c94b43d510"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_7.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_7.0.mat",
+    "bytes": 5652,
+    "sha256": "46f85f3f81cd1bf056ad02cdb18124b7382001287dd8f42ce1d1dcc8157aa618"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_8.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_8.0.mat",
+    "bytes": 5763,
+    "sha256": "79c57880a8e59d80092cc05f4b22608fa561ac12d60ad46659b1403e0c0d0778"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_9.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Ez_m_16_a_10.0_r_9.0.mat",
+    "bytes": 5713,
+    "sha256": "97e5d6b539943f279aec6a76525780d851340c0c33cea6dead817d6d9bf673ec"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Offsets_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Offsets_m_16_a_10.0.mat",
+    "bytes": 757,
+    "sha256": "04549c7a4fcf16085100784d8701db1af52ea5bf2fe4ccc6ece87239b32c3532"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/PxStatic_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/PxStatic_m_16_a_10.0.mat",
+    "bytes": 1002,
+    "sha256": "39c928bbfb34a189bec12a09676621cbb941cf6682bc25587f015e64858d2318"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/PxTime_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/PxTime_m_16_a_10.0.mat",
+    "bytes": 1000,
+    "sha256": "bf90adb654648522004334c3af24c1708f0fc87ef4319de42c87d6084a7e6e4e"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/PzStatic_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/PzStatic_m_16_a_10.0.mat",
+    "bytes": 997,
+    "sha256": "37db332422346caed259b11ad592bf88d2e7f5d6436774d39bf83e2a4683a52e"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/PzTime_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/PzTime_m_16_a_10.0.mat",
+    "bytes": 1003,
+    "sha256": "168ac88bcf6f0c7725208418b3ba2db2822f74a00b5b0b404ba96355b045cee6"
+  },
+  {
+    "source": "Mathematica/Data/E_m_0_1_2/Z_m_16_a_10.0.mat",
+    "collected": "research/Mathematica/Data/E_m_0_1_2/Z_m_16_a_10.0.mat",
+    "bytes": 4719,
+    "sha256": "8e3567b3982e74c47831a858db4daf759f037901ecd00269be924b23bf8303ef"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_11.4.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_11.4.mat",
+    "bytes": 763,
+    "sha256": "6f1ff77db994e2078564ebeb24a01dc3416a3b61bc97546fd540a29f8f1eea84"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_15.2.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_15.2.mat",
+    "bytes": 770,
+    "sha256": "28d663f0ac2a0be25f3106a9cbcd12f65d643651efed7552be567b7edce46db0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_19.0.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_19.0.mat",
+    "bytes": 768,
+    "sha256": "d668d0a7043f711c9b0c03c2c01b3aa988735f82bce105b9f91c16e4fe2ec836"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_22.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_22.8.mat",
+    "bytes": 767,
+    "sha256": "f02a660db22f244dcb24f563cf01a3edefa75ad70905fa6e8b75d0676a45ad48"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_3.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_3.8.mat",
+    "bytes": 770,
+    "sha256": "00ba066751eaccc837f9825fb152434bda80d80bbf84947a3412ea369567381a"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/Offsets_m_0_a_7.6.mat",
+    "collected": "research/Mathematica/Data/P_m_0/Offsets_m_0_a_7.6.mat",
+    "bytes": 769,
+    "sha256": "aacb05e08a97b7d457176eba082bca7478a600bae79fe8b4ddff2cffa106de3a"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_11.4.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_11.4.mat",
+    "bytes": 1017,
+    "sha256": "17217c2b5d4c6213c2638d77c27318b44ac0bef894f502bffffa18a9210df8d0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_15.2.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_15.2.mat",
+    "bytes": 1013,
+    "sha256": "47b5d79722f0a286323ea3d4c5bd0ffb6b607ede4dad164d94ae8ad6c292a8d0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_19.0.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_19.0.mat",
+    "bytes": 1017,
+    "sha256": "7e6cde0512f2a778e4716ca356f1e1743dbdd1b725a563be82a2ca629f086e5d"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_22.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_22.8.mat",
+    "bytes": 1018,
+    "sha256": "8b24324cc7a4a68de06625379bab289a20a74d9f1495b10a7b0bb12298c25597"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_3.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_3.8.mat",
+    "bytes": 1022,
+    "sha256": "9b0758d0efd84370168a9f78f0e1a33318aaf04550d8220baf6232cb8657e195"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxStatic_m_0_a_7.6.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxStatic_m_0_a_7.6.mat",
+    "bytes": 1014,
+    "sha256": "0fd4986f2bbf09893a722368df80684ff0db45cf472f414a7f16b41285cd7abd"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_11.4.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_11.4.mat",
+    "bytes": 1027,
+    "sha256": "7d1275c16ae09011309d0ca3f1f739880f4673d473e809f18f79502f376e158c"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_15.2.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_15.2.mat",
+    "bytes": 1027,
+    "sha256": "df3dc6a7e448431391ebfd6788f8dbf5b2f6404191275ec4aa17031c192f52e1"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_19.0.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_19.0.mat",
+    "bytes": 1027,
+    "sha256": "337783e3b59eced51bcbfe0a846cfd6237f1486d55a4bd41421b83117c64468f"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_22.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_22.8.mat",
+    "bytes": 1027,
+    "sha256": "c711a8887eebb0e45b29353ed9d9970fcdf9cfcb71c4e7406cd0f3c8618cffa4"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_3.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_3.8.mat",
+    "bytes": 1027,
+    "sha256": "badc8f850e07bde0cfd3c2ce4cdbc38c7ac713ddccd6bc0cba234cba611ed1bd"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PxTime_m_0_a_7.6.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PxTime_m_0_a_7.6.mat",
+    "bytes": 1027,
+    "sha256": "969c11468e8295c1d4966ca8f8f656ee706cde0c4d83e0b6fc5e24d144f26f19"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_11.4.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_11.4.mat",
+    "bytes": 987,
+    "sha256": "9ef1de0b5fb155b65af419339c81429eda9945dea912a03980f2b2528ca8faca"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_15.2.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_15.2.mat",
+    "bytes": 998,
+    "sha256": "a0bb277fd628d4c32320bfe71aed22d616e23a3382990ca2fd830a17c0885bd7"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_19.0.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_19.0.mat",
+    "bytes": 999,
+    "sha256": "817c0eb2638f655994f9eb3609b910fe814344457b698f4cc777bbbb677d7119"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_22.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_22.8.mat",
+    "bytes": 1007,
+    "sha256": "d52b138ba46d8b9f8017077231bfff010704de44aed3f3cd36236a75d1b0965d"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_3.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_3.8.mat",
+    "bytes": 941,
+    "sha256": "7cef317643b391fd78c429b6396297b8f6212e516ffb9d81bde6cfc1c4617560"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzStatic_m_0_a_7.6.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzStatic_m_0_a_7.6.mat",
+    "bytes": 983,
+    "sha256": "32bbb3ffbb207b709f967715d52bf2509cc1a67f2c98e94d0b815d79d0f264c7"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_11.4.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_11.4.mat",
+    "bytes": 653,
+    "sha256": "f2243ded9772f464a98c252ee43dc7d138ab0427743ac6c6512bd7fe3f98dbf0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_15.2.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_15.2.mat",
+    "bytes": 692,
+    "sha256": "b5cc77c0ed7d3c3d18114ad7abce24a93278be69cb1bcc0b3aa0e1a687b9ab5a"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_19.0.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_19.0.mat",
+    "bytes": 696,
+    "sha256": "fd6680dd735e0ef43ebda8dbe9fd5c478da3a1ea3a78eab1388b7f01bea03811"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_22.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_22.8.mat",
+    "bytes": 702,
+    "sha256": "af2cec21028bdff0e24c676cedee158add743ae945b3645aa44901fd4cf250f5"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_3.8.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_3.8.mat",
+    "bytes": 711,
+    "sha256": "91cb1bd44868acc7f29386b8cf45edd7ac0ac784d95e32b1df15c5d849340c31"
+  },
+  {
+    "source": "Mathematica/Data/P_m_0/PzTime_m_0_a_7.6.mat",
+    "collected": "research/Mathematica/Data/P_m_0/PzTime_m_0_a_7.6.mat",
+    "bytes": 704,
+    "sha256": "dff855ca1fcb0a66eb4ab787db79ca516408f4546a60ee278de9177bff0c4e27"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_12.18.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_12.18.mat",
+    "bytes": 769,
+    "sha256": "5b53f917647bb95002e8cba0d0d63ddcbaa6f1ae45b8ebf86417262f52522a8d"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_18.27.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_18.27.mat",
+    "bytes": 767,
+    "sha256": "9612f529e6e6d38fc28b7433fb95e2c242f4d04aa18971a0d927cee656e8548b"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_24.36.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_24.36.mat",
+    "bytes": 770,
+    "sha256": "0ec2ed4bc80b05b4c151bfa66b4d9432026fb20551e8cc19cd290805325df744"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_30.45.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_30.45.mat",
+    "bytes": 767,
+    "sha256": "cd1cc0c81e3926ef112cf1310ea365c707fa9bb0e30b0150591f8f52e374a0d5"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_36.54.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_36.54.mat",
+    "bytes": 765,
+    "sha256": "d4938736872d38318059562e04239849ac70136b42a87f2ced724137bfc1d858"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/Offsets_m_1_a_6.09.mat",
+    "collected": "research/Mathematica/Data/P_m_1/Offsets_m_1_a_6.09.mat",
+    "bytes": 766,
+    "sha256": "3143821c711a2735e4913bd59e0b713b78d730571f8e9d2ee4fa1ed5500c0215"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_12.18.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_12.18.mat",
+    "bytes": 1001,
+    "sha256": "6d690319c425937b233edb626e7017d57cc25472d752c85535b95356fc8a61d1"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_18.27.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_18.27.mat",
+    "bytes": 1005,
+    "sha256": "9c0fc64acbeface1467f635f2d9e927b987175d573717ea8b3b4a9647b2e75a0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_24.36.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_24.36.mat",
+    "bytes": 1008,
+    "sha256": "f3f9b07308f5ec1e69561825922249c42f4ed3f14a7d315033ec7819264dc3fe"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_30.45.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_30.45.mat",
+    "bytes": 1015,
+    "sha256": "bc82ac98ffe13834402df6ac590da9ec0d09221dd2030369d86d0d424514e990"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_36.54.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_36.54.mat",
+    "bytes": 1025,
+    "sha256": "3941141cbab5730bef95ccc1132de67f67c5b7a894da141880b8d7bb825c0ea0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxStatic_m_1_a_6.09.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxStatic_m_1_a_6.09.mat",
+    "bytes": 982,
+    "sha256": "81a9d734fcfaecccc65459c34194f3538b734a20d71041e35d81ee7fdbc4f869"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_12.18.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_12.18.mat",
+    "bytes": 660,
+    "sha256": "372a691429c6261d22f7eea923b69237657723fb2028dcdcc09795cb1824cafc"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_18.27.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_18.27.mat",
+    "bytes": 705,
+    "sha256": "d7788e2245b5a6efba9a9b8ac12405d9abb911137984054975fe338ea705d808"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_24.36.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_24.36.mat",
+    "bytes": 688,
+    "sha256": "78cc23979f1a23e379f07b99aeda283de8f9b3373c2bcf2fdb6237a6c654f518"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_30.45.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_30.45.mat",
+    "bytes": 696,
+    "sha256": "f210cf117a756b1a3a01d30fd606b367675c241bf84b63f6c036bfcb1e3e470f"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_36.54.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_36.54.mat",
+    "bytes": 697,
+    "sha256": "4eeadf7a94d36014c9099ff2ae089a804fc995acf4d68c677106d9b41ee78dd2"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PxTime_m_1_a_6.09.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PxTime_m_1_a_6.09.mat",
+    "bytes": 733,
+    "sha256": "d36b2588c34faa5d4a13f2378582056937efd4c09c61f20fef37b2a04224e310"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_12.18.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_12.18.mat",
+    "bytes": 1006,
+    "sha256": "78e57eaf45ae324a36c92f41ad09a09132bba12f911455e730896d76c05c6892"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_18.27.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_18.27.mat",
+    "bytes": 1008,
+    "sha256": "9f0d3f20df26d14fa1eee3573b5eb064a6a54ed339180ee4958a7114992c0c6a"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_24.36.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_24.36.mat",
+    "bytes": 1008,
+    "sha256": "44b93f8639f958c50be7c6b10d804e1f0e38930bb18d29ea809c2e1989def257"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_30.45.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_30.45.mat",
+    "bytes": 1002,
+    "sha256": "06014585d465f5ca928e105fd203c9e72441a184d61ff2ff1a7f78b5ddc85faa"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_36.54.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_36.54.mat",
+    "bytes": 1005,
+    "sha256": "57e7b022db6ef725794c41235544019810dc81e172daa791df4732bf05b3e3a8"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzStatic_m_1_a_6.09.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzStatic_m_1_a_6.09.mat",
+    "bytes": 1007,
+    "sha256": "a399d5d552cd5fc2540e94dbd60364a5f5042162516ab68fe048a9a7cee14dd9"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_12.18.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_12.18.mat",
+    "bytes": 944,
+    "sha256": "83a12dd58b948f6c3ba6fb86028466f2bfabb854ecc575b0d7ee23146f3ab1ab"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_18.27.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_18.27.mat",
+    "bytes": 956,
+    "sha256": "148dafc896bd01730ac30e3ea61fc8893e70db7b71234a22ef72c515bce8b43f"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_24.36.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_24.36.mat",
+    "bytes": 973,
+    "sha256": "55e403e75abc0f1124ed0945f0c309b247b3c9465bef860b952a92300517ef77"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_30.45.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_30.45.mat",
+    "bytes": 978,
+    "sha256": "a0f779f1ae8d9be3f3f42b30ba1c4f866ccf83b8d5feeb2b4acca67392cfd9fc"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_36.54.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_36.54.mat",
+    "bytes": 971,
+    "sha256": "87195231a9424c375db10d966c33f245bdda4fdb538f9c533696621ff556462b"
+  },
+  {
+    "source": "Mathematica/Data/P_m_1/PzTime_m_1_a_6.09.mat",
+    "collected": "research/Mathematica/Data/P_m_1/PzTime_m_1_a_6.09.mat",
+    "bytes": 992,
+    "sha256": "51fd2f2ce50944f157b37ae5f0e6b1b8f14e6f66c300a117aae622f21c1256f4"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/Offsets_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/Offsets_m_13_a_5.0.mat",
+    "bytes": 758,
+    "sha256": "76ad902f26894408c8cecdbe7b66b647853e10d77326d76b277dd84fe79740ea"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/PxStatic_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/PxStatic_m_13_a_5.0.mat",
+    "bytes": 992,
+    "sha256": "792d37a0a0021aea4ea5c75ab69f1597456552131026104d2f9ca248c63615d2"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/PxTime_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/PxTime_m_13_a_5.0.mat",
+    "bytes": 992,
+    "sha256": "72e9727219e110bce9f2d16814e8b1d2006be25867aa300d8edbb6f4882de483"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/PzStatic_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/PzStatic_m_13_a_5.0.mat",
+    "bytes": 996,
+    "sha256": "90f54f00cef87cb10f2507600dd712c07a993f2420cef34416b22db6de2b6e88"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/PzTime_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/PzTime_m_13_a_5.0.mat",
+    "bytes": 992,
+    "sha256": "7f9ac7b143bd4950d72b1d1e06ed2e24621e91c91e5e0da31e1c29baaaa693fb"
+  },
+  {
+    "source": "Mathematica/Data/P_m_13/Z_m_13_a_5.0.mat",
+    "collected": "research/Mathematica/Data/P_m_13/Z_m_13_a_5.0.mat",
+    "bytes": 4719,
+    "sha256": "8e3567b3982e74c47831a858db4daf759f037901ecd00269be924b23bf8303ef"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_16.34.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_16.34.mat",
+    "bytes": 766,
+    "sha256": "4d4613a96ca70669996695e6b44608649e8a2e7f186869f31de3844b96891fa0"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_24.51.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_24.51.mat",
+    "bytes": 771,
+    "sha256": "7acee10f76ab84950b3a60907a50d55967d0025d6676a054ab383ebb18d1f51a"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_32.68.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_32.68.mat",
+    "bytes": 766,
+    "sha256": "50a8234d5bc279ecfa4941a140d5f6c9f0878de532b75372c467855ae18411ec"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_40.85.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_40.85.mat",
+    "bytes": 771,
+    "sha256": "1119a8bdaf360646cf77036c96e3eb3d1ea8aaf26a4b896f041685464e6ffb96"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_49.02.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_49.02.mat",
+    "bytes": 770,
+    "sha256": "00b1482bb20b4204f519746d2fdf458cb29c544f71fed68e8379c220a09d74e7"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/Offsets_m_2_a_8.17.mat",
+    "collected": "research/Mathematica/Data/P_m_2/Offsets_m_2_a_8.17.mat",
+    "bytes": 761,
+    "sha256": "a66bed270b48df43f010a17afaa660fd416389623e0bbf18dac7e4a1c307c2c5"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_16.34.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_16.34.mat",
+    "bytes": 1017,
+    "sha256": "668decc09013b5d8290de9e446884117e864098325a463da9e2fc1a26de80616"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_24.51.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_24.51.mat",
+    "bytes": 1018,
+    "sha256": "e04e9cb31f10cdd60d3726d1e93c366cc4e78f55dbb45036374d28b84d9a9095"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_32.68.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_32.68.mat",
+    "bytes": 1008,
+    "sha256": "44d51f852ba4a7ed9dfb4fc6797116cae32f6528f30e7b555caf28b83482416e"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_40.85.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_40.85.mat",
+    "bytes": 1010,
+    "sha256": "ff9da1fa0f79a9e73bb591d0f704bbdac5f044bcceebe784a86261992aee213d"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_49.02.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_49.02.mat",
+    "bytes": 1021,
+    "sha256": "3806a56bf046de4af523d503ae29819375c0969796485ab5c1fcc674a7726338"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxStatic_m_2_a_8.17.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxStatic_m_2_a_8.17.mat",
+    "bytes": 1027,
+    "sha256": "86fb815f6ed9f98773d8bc1479e4139651da87fa37bd16ec2b781404146158b8"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_16.34.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_16.34.mat",
+    "bytes": 964,
+    "sha256": "150cbab88973a98e41b2ae34f3ed4733d9d6dc49f6d4ac1afa72579231e9419e"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_24.51.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_24.51.mat",
+    "bytes": 966,
+    "sha256": "573cbecf02c44b06df318dcc8d9990f9c2c3613376046d55d117c8ee9cc4a1fb"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_32.68.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_32.68.mat",
+    "bytes": 994,
+    "sha256": "bc44e301f7b7e5f05a120cdb46018d921817e69091528c7d8b1ff7524ce1c4a3"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_40.85.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_40.85.mat",
+    "bytes": 1003,
+    "sha256": "3e5adbda1981f67aed488e4cec57d2e2ecd913e2bf0169895c79f272267670b8"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_49.02.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_49.02.mat",
+    "bytes": 1010,
+    "sha256": "9f83cf1201643c6f0b092df0f3eb0a075aeb69ec594dc298a69643d01fa86a5d"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PxTime_m_2_a_8.17.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PxTime_m_2_a_8.17.mat",
+    "bytes": 989,
+    "sha256": "1ea9a49474b6f418442a13d4a1aad6e4a3206445cc27f6f46090099ade732e14"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_16.34.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_16.34.mat",
+    "bytes": 1010,
+    "sha256": "7ee09da3cceff719f71d6457365d44c28dfaa120436b48e9e0e3fde2ecb37669"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_24.51.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_24.51.mat",
+    "bytes": 1013,
+    "sha256": "d1decb53490981aa256f03316f85e1246b5de762e72dbdab3b785f12b5a177c9"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_32.68.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_32.68.mat",
+    "bytes": 1014,
+    "sha256": "32bf749c6469a9436c833bb2175d5d250218adbc657a564365ec6bb4571e1de3"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_40.85.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_40.85.mat",
+    "bytes": 1010,
+    "sha256": "39a33ad44def8196b5c5e8ded76c6bbfd75e60047fc2cd96ef0e5903d7c3acd7"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_49.02.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_49.02.mat",
+    "bytes": 1008,
+    "sha256": "eec7a04b0795e9e18e3624de140cbc11753e1e3a357f340e7566afcb083e0c88"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzStatic_m_2_a_8.17.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzStatic_m_2_a_8.17.mat",
+    "bytes": 1011,
+    "sha256": "0485a7b57fadb0586419ced401fb629191c14c7788428e359347ce12f739aa4f"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_16.34.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_16.34.mat",
+    "bytes": 949,
+    "sha256": "07f432da78c39fbfc39c7599d47a20e27315381ff758dd5f87f9b6c2fa1b2232"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_24.51.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_24.51.mat",
+    "bytes": 961,
+    "sha256": "f8f97c3b48659b6f014d7a05bd6c02d571f77c6849ad4d9251189223daef7c82"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_32.68.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_32.68.mat",
+    "bytes": 978,
+    "sha256": "e06e5b17fc8f89e6c5b4690b688707a3a739f5d71a5043d1542aa7b9e807d9b6"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_40.85.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_40.85.mat",
+    "bytes": 991,
+    "sha256": "8ae3c40cf6db6e109c6d6e9a2798b3f8c3e9906072b7466ca8194b2e82605850"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_49.02.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_49.02.mat",
+    "bytes": 1009,
+    "sha256": "8e65e028b7f9333b517b8ad5d2813722a6bbbf8e91bbb57d9d1930a4e169b2e6"
+  },
+  {
+    "source": "Mathematica/Data/P_m_2/PzTime_m_2_a_8.17.mat",
+    "collected": "research/Mathematica/Data/P_m_2/PzTime_m_2_a_8.17.mat",
+    "bytes": 977,
+    "sha256": "fde900016dde7fc46292dbc8ca1476024588cecf140fdea7e1054477adc39b31"
+  },
+  {
+    "source": "Mathematica/PlotField.m",
+    "collected": "research/Mathematica/PlotField.m",
+    "bytes": 803,
+    "sha256": "e15402b56a247ab4b123007cc8d0d397dff8200845d46309f9ab33e099c1866c"
+  },
+  {
+    "source": "Mathematica/PlotMathematicaData.m",
+    "collected": "research/Mathematica/PlotMathematicaData.m",
+    "bytes": 521,
+    "sha256": "ee970a22e92be2ae170ee2cd185a04e91cd8e5b6abe86caf11bcb20aded148a8"
+  },
+  {
+    "source": "Mathematica/Plot_k.m",
+    "collected": "research/Mathematica/Plot_k.m",
+    "bytes": 1906,
+    "sha256": "0d9a5582a1d4cfb8246d984648fa6f6125ea30e025ae2ccc1a38986be7b7d66d"
+  },
+  {
+    "source": "Mathematica/TM010_Integral.nb",
+    "collected": "research/Mathematica/TM010_Integral.nb",
+    "bytes": 104684,
+    "sha256": "d7c82752144928a6333adcfd9b49888a0cc5aeddfb045769170af8e0c2ddfff3"
+  },
+  {
+    "source": "Mathematica/TM010_Integral_2.nb",
+    "collected": "research/Mathematica/TM010_Integral_2.nb",
+    "bytes": 51388,
+    "sha256": "b2cc9ced258c4ad19fb9acaf179e555a609df1f6147dc72a0962137bd3e9e1e6"
+  },
+  {
+    "source": "Mathematica/TM410_Integral.nb",
+    "collected": "research/Mathematica/TM410_Integral.nb",
+    "bytes": 56227,
+    "sha256": "7482d008799c29fe32eb9e02ae16cec462be05c8a9bb83a5b053355761978a7b"
+  },
+  {
+    "source": "Mathematica/TM410_Integral_2.nb",
+    "collected": "research/Mathematica/TM410_Integral_2.nb",
+    "bytes": 34905,
+    "sha256": "2840a270a76253e037578a20ee1cc0f511fbee1c60b2771f5908135343fab4b3"
+  },
+  {
+    "source": "Mathematica/TM410_Integral_3.nb",
+    "collected": "research/Mathematica/TM410_Integral_3.nb",
+    "bytes": 2955640,
+    "sha256": "8c2f6107c14ccc733c19fc2f04c3765835fdac4a51dc8994dcac3990bba80b88"
+  },
+  {
+    "source": "Mathematica/TM410_Integral_4.nb",
+    "collected": "research/Mathematica/TM410_Integral_4.nb",
+    "bytes": 2952859,
+    "sha256": "47e425f37b1d57285e6ff911c9a62f08a690c365458b9b166405207bd7f1174c"
+  },
+  {
+    "source": "Mathematica/plot_E.m",
+    "collected": "research/Mathematica/plot_E.m",
+    "bytes": 2601,
+    "sha256": "176608198c34948a48b1616398d20353d2c1846229e294d37b90665b4a971ff8"
+  },
+  {
+    "source": "Mathematica/plot_E2.m",
+    "collected": "research/Mathematica/plot_E2.m",
+    "bytes": 6016,
+    "sha256": "72d9a7fe0d825c54fbfa2d8074d132a2d1d9f4dcc097c8e204e4f341be623aa7"
+  },
+  {
+    "source": "Mathematica/plot_pz.m",
+    "collected": "research/Mathematica/plot_pz.m",
+    "bytes": 3242,
+    "sha256": "ba802e8c7d7efedc241a4f5d3f2263bda447ef4d7c740028bcd29b8b77146959"
+  },
+  {
+    "source": "Mathematica/plot_pz_2.m",
+    "collected": "research/Mathematica/plot_pz_2.m",
+    "bytes": 6787,
+    "sha256": "52ad9ae93ce1c7e5d92de245f67ae75a1faca21f42400776ba491afca2e9c9c5"
+  },
+  {
+    "source": "MultipoleCorrecting/210219_CavBuildForCoupler.mcs",
+    "collected": "research/MultipoleCorrecting/210219_CavBuildForCoupler.mcs",
+    "bytes": 9140,
+    "sha256": "1f262bbc043b1f1165818bd2b4262d4c88a3eca77aa695e8a7b84b19f9dec153"
+  },
+  {
+    "source": "MultipoleCorrecting/F_AziShapeCalc_Fast.m",
+    "collected": "research/MultipoleCorrecting/F_AziShapeCalc_Fast.m",
+    "bytes": 6769,
+    "sha256": "04d73ae819fdcb71b842989abc41273baedb5c2a5e939004005a524d193a655a"
+  },
+  {
+    "source": "MultipoleCorrecting/F_besselzero.m",
+    "collected": "research/MultipoleCorrecting/F_besselzero.m",
+    "bytes": 9742,
+    "sha256": "c1e749a64fd7d9206dc8694570fe226f5578b4a66232dfc37cb5b8e71e4d7c1a"
+  },
+  {
+    "source": "MultipoleCorrecting/FastShapeSolver.m",
+    "collected": "research/MultipoleCorrecting/FastShapeSolver.m",
+    "bytes": 5237,
+    "sha256": "8a3e8baf9c594b32db61c5774453e59743363f6748ce27f8b4fa945659ffa582"
+  },
+  {
+    "source": "MultipoleCorrecting/LongShapeSolver/F_AziShapeCalc_CondPlay.m",
+    "collected": "research/MultipoleCorrecting/LongShapeSolver/F_AziShapeCalc_CondPlay.m",
+    "bytes": 8938,
+    "sha256": "b2013c9c302b2b21c0a82d4775646e45919e6c5f2bd783d193b5a2ea206e1397"
+  },
+  {
+    "source": "MultipoleCorrecting/LongShapeSolver/F_atan3.m",
+    "collected": "research/MultipoleCorrecting/LongShapeSolver/F_atan3.m",
+    "bytes": 739,
+    "sha256": "6f8745bfac92409b88207457e67591bf0a44b22c51a66131b5c66afd9e54bca9"
+  },
+  {
+    "source": "MultipoleCorrecting/LongShapeSolver/F_distinguishable_colors.m",
+    "collected": "research/MultipoleCorrecting/LongShapeSolver/F_distinguishable_colors.m",
+    "bytes": 5749,
+    "sha256": "d0fe1c6b827b3278739cf98333866331fde4d21125dec85bfff658560eb4522e"
+  },
+  {
+    "source": "MultipoleCorrecting/LongShapeSolver/ThesisPlotter_220618.m",
+    "collected": "research/MultipoleCorrecting/LongShapeSolver/ThesisPlotter_220618.m",
+    "bytes": 5880,
+    "sha256": "04b2ec144152abe0a1679bea14f0f75d11866867e4195f4354533a6ca869c16c"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/DipOnly.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/DipOnly.txt",
+    "bytes": 21505,
+    "sha256": "5c4b127402620a19bd63ed26d3a8719914e716c96342b9d2c1565ac254940447"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Dipole.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Dipole.txt",
+    "bytes": 21404,
+    "sha256": "5c4fe518834e3843c6a57765d31e5dd473644b46e92f5a6ea2a893a64b8f1c4c"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Dipole2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Dipole2.txt",
+    "bytes": 21405,
+    "sha256": "ac137b9acf24e5304a050aaf36d2df87337943ad77c969d8759086fe7ebfb58d"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Iteration1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Iteration1.txt",
+    "bytes": 21436,
+    "sha256": "e1da4c1c8875754d5b62891106c3bba5ab562e7f61cd16b8137bdeca8e0a47ec"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Iteration2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Iteration2.txt",
+    "bytes": 21436,
+    "sha256": "5ad91dbff511a595f38134fab59b07ba660aa0cbced16ff99dbf6c00905aa49e"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Iteration3.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Iteration3.txt",
+    "bytes": 21435,
+    "sha256": "eae32af5d7dac20dc6f3f53e880fc6758d85848b418b394d47748cb6911b1076"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationFeb1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationFeb1.txt",
+    "bytes": 21436,
+    "sha256": "319751521139adea21cea49a4f9234657a0e287f6f2f8406d22f53ae45dad40f"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb1.txt",
+    "bytes": 7157,
+    "sha256": "1515314cae846924bfd2bd07886906717d74bb2ca5cb2328dc53715cb895b593"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb10.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb10.txt",
+    "bytes": 7157,
+    "sha256": "dffbc2d0dd8f5068380aaa9546284ce3761d41b95b29779f42eef403ce5b637e"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb2.txt",
+    "bytes": 7157,
+    "sha256": "d785829ac063b84e8d342cdac6b927886f4ef7460d9186868eb5d8424b9282ac"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb3.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb3.txt",
+    "bytes": 7157,
+    "sha256": "1990aed33acd373378fd8130a4665759a1d3ed2063cbd5ddaebc30f20766fe90"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb4.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb4.txt",
+    "bytes": 7157,
+    "sha256": "1990aed33acd373378fd8130a4665759a1d3ed2063cbd5ddaebc30f20766fe90"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb5.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb5.txt",
+    "bytes": 7157,
+    "sha256": "305dab6d9eae4368c9817b62203bc7ff369cd29bcf263a67233a7cea1bd1e1a1"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb6.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb6.txt",
+    "bytes": 7157,
+    "sha256": "305dab6d9eae4368c9817b62203bc7ff369cd29bcf263a67233a7cea1bd1e1a1"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb7.txt",
+    "bytes": 7157,
+    "sha256": "e65b5f1870d99755fda75615b989766761942e4f865b92745a9fab6b7f24b6fd"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb8.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb8.txt",
+    "bytes": 7157,
+    "sha256": "49b2cfb9259ae3d6108a0160d253d7be1535edc79c1b00e413b13b39dd3b712b"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/IterationOct_Feb9.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/IterationOct_Feb9.txt",
+    "bytes": 7157,
+    "sha256": "8be8d0d7fc12e7266d2455359e83391fddc3b49ce36d6f57075d8ade07795b35"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/MonoOnly.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/MonoOnly.txt",
+    "bytes": 21437,
+    "sha256": "836fdc8a7faad3b21ba1cb739efa19972a4c5a623c3bf2be601288f5167fe84f"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/POLES_Root2-m_2_Cm_10_C0_1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/POLES_Root2-m_2_Cm_10_C0_1.txt",
+    "bytes": 19,
+    "sha256": "b4a82df6ce404d6c4b4009b58fd0369d39435d55bff2b15d26d5d1f597535ecb"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Pillbox.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Pillbox.txt",
+    "bytes": 21437,
+    "sha256": "7d5a880a3f392dc5fff0a223e8caa7753e17cbcd54c06a80b4b389b95ea09a9b"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Quad.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Quad.txt",
+    "bytes": 21445,
+    "sha256": "142bb78f0615e78d3f26aa118f840f01ca55820e53437d5c3b554d0b323406a8"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Quad1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Quad1.txt",
+    "bytes": 7161,
+    "sha256": "543f1444306f79fc88949fbf77b57d9e5832f6bbb7e6beb5d25e0d4d1215799c"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Quad10.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Quad10.txt",
+    "bytes": 71443,
+    "sha256": "5f5b4a07fc9b5e22f7b704f470de42f98365b75e399e3262be934ccc4498bb3a"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Quad2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Quad2.txt",
+    "bytes": 21441,
+    "sha256": "35d5007f6aaa4d757c7d684a2cb582a3b444282fe90bf7fa300fc7bc261b5607"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/QuadDip.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/QuadDip.txt",
+    "bytes": 7145,
+    "sha256": "8e0baf63d85df6c2d2c03bb45a50c0e20820b12f79ec1d3e796815278c433980"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/QuadOnly.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/QuadOnly.txt",
+    "bytes": 21533,
+    "sha256": "fafd4652184e24e3cc8290c73f6fa9df165dc74ac0aa0f7d8213f10a53de914c"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/Root2-m_2_Cm_10_C0_1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/Root2-m_2_Cm_10_C0_1.txt",
+    "bytes": 14694,
+    "sha256": "4bd2394c0a31900261bcc4af18c52ed3a45febfbe98ad406e40952e0c8ca037d"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM04610_6.7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM04610_6.7.txt",
+    "bytes": 7161,
+    "sha256": "07ad0c069da83f949ac84688a2d87c8f660cafe5063193e52f2da32f95d0004f"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM410.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM410.txt",
+    "bytes": 7478,
+    "sha256": "763f319d8511179a51c26f64c25e5195c2e0b81d9567719408f2f482f5a12e3f"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM410_L.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM410_L.txt",
+    "bytes": 7818,
+    "sha256": "248e4a657b020fa2fac4a953894528f8ba90234f25cdd47bfc24ce89eff1dd46"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM420.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM420.txt",
+    "bytes": 7650,
+    "sha256": "0a18b049c3d4315fdc361b06f69d033e6afb348d379469692e98650544ee08c4"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_1.txt",
+    "bytes": 7664,
+    "sha256": "38507e5a7beef0b5da9d6c9b1168aa92858e9a1a225ad766657f29bd071b43a0"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_2.txt",
+    "bytes": 7615,
+    "sha256": "723fa084952cb970f274b66214c250c25cbe194212a080744b588249c4acf0b5"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_3.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_3.txt",
+    "bytes": 7607,
+    "sha256": "b4a76b27fa7c24dfd766f8cd0e05ccb1969c60b7aca705fbc61c1ced05663230"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_5.7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_5.7.txt",
+    "bytes": 7595,
+    "sha256": "781bcfc3d28eb318a61118a67c8c28935725eca0b5c02c8302bbfa1567dd5728"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_5.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_5.txt",
+    "bytes": 7601,
+    "sha256": "a48ec009335aaf4f7d5f74095f73007162d95763c9071c7c734a4de2e4d687c3"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_6.1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_6.1.txt",
+    "bytes": 7595,
+    "sha256": "3e3b04631947b3621132eb651171a917c04e01910ef60115c5a2f4591a33f9b8"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_6.3.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_6.3.txt",
+    "bytes": 7595,
+    "sha256": "06c8eaf0633452f0b762a518b894001641b7338a68c9770e68f95bebd8d7a6ce"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_6.5.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_6.5.txt",
+    "bytes": 7595,
+    "sha256": "3d8d799be45e0bddb5d7e4647d3202cbeb4163ce7e801b39e10939696ce9c469"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_6.7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_6.7.txt",
+    "bytes": 7595,
+    "sha256": "22e69048786fc67faf43b97238c66e74e27a4ea212b175f6d8aedabcd497cf8c"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_6.7_Root2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_6.7_Root2.txt",
+    "bytes": 7734,
+    "sha256": "ec35bcd0f8aa2afb854ccf9495b1449d969857b38a1046d190dc48274f74e651"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_7.1.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_7.1.txt",
+    "bytes": 7595,
+    "sha256": "8039f3451c7afd3477cd1d790fca3601df44ca82ba0718d8f0d1470debb2072a"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_7.5.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_7.5.txt",
+    "bytes": 7595,
+    "sha256": "e6c7e37d66ecfce2a52576d8f2c3ee0843d01616a325cd54d38779572d3aa6d5"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM4610_9.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM4610_9.txt",
+    "bytes": 7593,
+    "sha256": "607a0000c661273ac7b36ccbbd3b376d50dc8adaadee39a6f4bcbeb78f42cc89"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM46810.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM46810.txt",
+    "bytes": 77574,
+    "sha256": "f1a4868350c00ab668517172bfe07bccc0302ec50cb5ddf2a8a9063d23c7ac3b"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM46810_Good.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM46810_Good.txt",
+    "bytes": 7776,
+    "sha256": "7a5bab6e71a0e81d34e7d9ed667f9778a38fb586ed322dc9967e23921aaf263b"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM610.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM610.txt",
+    "bytes": 7610,
+    "sha256": "84d125b8ab89aaa6848b16d1cfaa1d0389414d1be705ceaa8cc931b5a373c9f7"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM610_Root2.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM610_Root2.txt",
+    "bytes": 7710,
+    "sha256": "d101c82cd85e46045f05fdca103c72ec88c55c097555c5491813659174807d2d"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM810.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM810.txt",
+    "bytes": 7686,
+    "sha256": "3dc957dce25506b0e85ba9909ed1d4f87c31cd5ccf9ffae9c93486d7d64e2789"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_+3_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_+3_7.txt",
+    "bytes": 7595,
+    "sha256": "081465eaceb3e997da044f048bca1e656e9529c51a5ec9259b27a4dcfb6f6b5d"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_+4_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_+4_7.txt",
+    "bytes": 7595,
+    "sha256": "1252d41e04592dcf1d9ef45b0fc03ca481c960919395923cd0e538eaa520c095"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_-11_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_-11_7.txt",
+    "bytes": 7593,
+    "sha256": "e00c80d8390370d1dbe36ed2d7ac06324d2e72be6ee9423c781cd0b3239abe81"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_-3_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_-3_7.txt",
+    "bytes": 7595,
+    "sha256": "7875d79170bbfdb2b250336ae12c967450dd242cad71bb82e0fb69b0bb4f9fbc"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_-4_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_-4_7.txt",
+    "bytes": 7595,
+    "sha256": "d9c82fe1e5618790d04b0d77acc2784e16554a35890c1f835545d5da4bdd04ca"
+  },
+  {
+    "source": "MultipoleCorrecting/Shapes/TM_24610_-7_7.txt",
+    "collected": "research/MultipoleCorrecting/Shapes/TM_24610_-7_7.txt",
+    "bytes": 7595,
+    "sha256": "e0241e62d134f05332a610d540f3f227f09dbf46358b7937a905ccf22f6839b9"
+  },
+  {
+    "source": "MultipoleCorrecting/ThesisPlotter_220618.m",
+    "collected": "research/MultipoleCorrecting/ThesisPlotter_220618.m",
+    "bytes": 18321,
+    "sha256": "48683c796489744c8282a43e051cacbf19817bea5175c1f814772a87bf1a23ec"
+  },
+  {
+    "source": "MultipoleCorrecting/main_Dec24.m",
+    "collected": "research/MultipoleCorrecting/main_Dec24.m",
+    "bytes": 68102,
+    "sha256": "a17ae940334d0748f9202587930524688f943286e184846e0e5eab89612fa0e3"
+  },
+  {
+    "source": "MultipoleCorrecting/main_Nov24.m",
+    "collected": "research/MultipoleCorrecting/main_Nov24.m",
+    "bytes": 41873,
+    "sha256": "9909489d604752c00d48abb22b9b5128d51eb8a74d66a34c71939e6f9b2598d7"
+  },
+  {
+    "source": "MultipoleCorrecting/main_Oct24.m",
+    "collected": "research/MultipoleCorrecting/main_Oct24.m",
+    "bytes": 20919,
+    "sha256": "7cb4fd617ad7d3139597c49aa36e7306758d21c2ada7a07dee45b618c55ca725"
+  },
+  {
+    "source": "MultipoleCorrecting/main_PillOnlyNov24.m",
+    "collected": "research/MultipoleCorrecting/main_PillOnlyNov24.m",
+    "bytes": 11532,
+    "sha256": "dbe80c7ccf31ceef5941d4d56a0b4204910e50f72cc3ccd9b6119cc9055724e9"
+  },
+  {
+    "source": "MultipoleCorrecting/plot_S11.m",
+    "collected": "research/MultipoleCorrecting/plot_S11.m",
+    "bytes": 520,
+    "sha256": "97de3cb55807b722119cba0d4682d0c53be77574301e981142802271a1dcac3e"
+  },
+  {
+    "source": "RF_Track/Components/Load_ConcentricBeam.m",
+    "collected": "research/RF_Track/Components/Load_ConcentricBeam.m",
+    "bytes": 880,
+    "sha256": "d55b6528d5900c8dcbecd4fcd9ccc6659d371f84c5a97b6f16f72cae6b483149"
+  },
+  {
+    "source": "RF_Track/Components/Load_ConcentricBeam_2.m",
+    "collected": "research/RF_Track/Components/Load_ConcentricBeam_2.m",
+    "bytes": 732,
+    "sha256": "0cc6befacf85bc12d4fd74de1072b9af11d868a926e811d07c0a70c7111621ef"
+  },
+  {
+    "source": "RF_Track/Components/Load_Multipole_Beam.m",
+    "collected": "research/RF_Track/Components/Load_Multipole_Beam.m",
+    "bytes": 696,
+    "sha256": "adf3c564fe0da67f7d1176bbb5913475a455eafc6cb9f0704bdb81bfd9a5cb10"
+  },
+  {
+    "source": "RF_Track/Functions/F_CSTFieldConvert2.m",
+    "collected": "research/RF_Track/Functions/F_CSTFieldConvert2.m",
+    "bytes": 7803,
+    "sha256": "38c81f0c5a7062b5d6ada599c5eb306b3ff5c5398b537cd540cfed3ca6a67b56"
+  },
+  {
+    "source": "RF_Track/Functions/F_Constraint.m",
+    "collected": "research/RF_Track/Functions/F_Constraint.m",
+    "bytes": 132,
+    "sha256": "f4249404059745bcd213f28e324cc9e11df23cbcc66ed6ec6acbe266345a789b"
+  },
+  {
+    "source": "RF_Track/Functions/F_Gam2Beta.m",
+    "collected": "research/RF_Track/Functions/F_Gam2Beta.m",
+    "bytes": 68,
+    "sha256": "ec9960ba192195aa150313c6aa171a6ec1159236518067ad128f9058526de591"
+  },
+  {
+    "source": "RF_Track/Functions/F_Make_RF_Track_Gif_Azi.m",
+    "collected": "research/RF_Track/Functions/F_Make_RF_Track_Gif_Azi.m",
+    "bytes": 7578,
+    "sha256": "ac089f8759b2720b7647c5d4a8e92c3fe6fefa91f29c6035381200be1cf23055"
+  },
+  {
+    "source": "RF_Track/Functions/F_Make_RF_Track_Gif_Multi_Dec24.m",
+    "collected": "research/RF_Track/Functions/F_Make_RF_Track_Gif_Multi_Dec24.m",
+    "bytes": 6787,
+    "sha256": "abb08e69bb70bc96873169be950ba1cc47fb12292efe085784afaca78c16245a"
+  },
+  {
+    "source": "RF_Track/Functions/F_MultipoleCav.m",
+    "collected": "research/RF_Track/Functions/F_MultipoleCav.m",
+    "bytes": 6421,
+    "sha256": "f8adf1bad42baef5b00b7fe9157344d11a52dae894eaf1ef97ee3fc39732dc9a"
+  },
+  {
+    "source": "RF_Track/Functions/F_MultipoleCav_TE.m",
+    "collected": "research/RF_Track/Functions/F_MultipoleCav_TE.m",
+    "bytes": 6714,
+    "sha256": "7acf7d2c5392dbad7e212b1ce0f52da1640a4e9ba7756976157c8fc88f2c4f11"
+  },
+  {
+    "source": "RF_Track/Functions/PlottingParameters.dat",
+    "collected": "research/RF_Track/Functions/PlottingParameters.dat",
+    "bytes": 230,
+    "sha256": "2c5196d0b35f57f4691369524d4bc454bacf2e285aaef923537ebf0ec82e3edd"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Azi/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Azi/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "1083140a513709f25ca21d9c7eda24398092e90a7ba2682b8b72eada509cd529"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Cancel10/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Cancel10/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "fcbe64072288da3f2bd005e53104afcdcf991498a67737d630f7d85c712f11aa"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Cancel5/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_Cancel5/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "5b232b4606a3fcb19d8116afa4a7df9af0b7aa4cf443a8d4a50691c4c20302fe"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_DualPort/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_DualPort/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "311cccac5f6b19f6b877eb642cabda265143c3f7e4f9659316e9d87e7aa463d4"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_QuadPort/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_QuadPort/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "6fd3e75c140c2477a0d463bdb72a93132ac829bd3f6430d606b90373a8c07a74"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/Maps/260216_SinglePort/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/Maps/260216_SinglePort/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "caed9e06f98834ec36c0014ceb4d8b464976da149e02d41205ea2627d4e17272"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/PW_Test.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/PW_Test.m",
+    "bytes": 533,
+    "sha256": "3bf934127fb78116daa4f69a5ad3403b51b1c66441a09342143b652a08350c56"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Dec24_Vol.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Dec24_Vol.m",
+    "bytes": 4322,
+    "sha256": "d324d5ad1a1c782e54b62c3441c7fc6fad2268311f552488e0ef9585657ad386"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Lattice.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Lattice.m",
+    "bytes": 21515,
+    "sha256": "114d7fa9164be5f46d1f7e54df2b04c3872aa4859a3f746c72147029b03a3e68"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Lattice_Loop.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Lattice_Loop.m",
+    "bytes": 24259,
+    "sha256": "166124dd32af9f3de2ca9032896fd9b840bd6b3c883e4ebddd9eb4de88cad264"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Tracker.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Feb25_Tracker.m",
+    "bytes": 6661,
+    "sha256": "ef58fb7b822fd5605cbeb415881fbaaf3607a52c56a65c6ac196c1a813e94722"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Nov24.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Nov24.m",
+    "bytes": 12954,
+    "sha256": "9c301c45f347f4217335c7924add5a4935c9e97a8a7c8a332100dd0f08e8fb80"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_Nov24_1.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_Nov24_1.m",
+    "bytes": 14227,
+    "sha256": "2fb0e662f9031563fc8732c0403d8ed3a574560fcaee9a0cd213d2d3eea011dd"
+  },
+  {
+    "source": "RF_Track/Scripts/MultipoleCorrecting/main_analysis.m",
+    "collected": "research/RF_Track/Scripts/MultipoleCorrecting/main_analysis.m",
+    "bytes": 6694,
+    "sha256": "f6848d082d1ef260e657fb34e405c5f96fa7117f2a2c6c80c9e0fe087d8a6958"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/TM4610_5_7.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/TM4610_5_7.m",
+    "bytes": 3528,
+    "sha256": "0ae35a16c7e931fc566a7e04f41342ab866ebb1af8cd4de655389e4d3dbae2ec"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/TM4610_6_3.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/TM4610_6_3.m",
+    "bytes": 3678,
+    "sha256": "c6b30a37bd48f7f2fdf0ef23c4b99bab35a21a8c67f122413c012983893fc20c"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/TM4610_6_7.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/TM4610_6_7.m",
+    "bytes": 3884,
+    "sha256": "77c8275c7d2b6ef3930e2614e1d156ea659e4a26ebef859ca774266ae805d8c4"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/TM4610_7_5.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/TM4610_7_5.m",
+    "bytes": 3948,
+    "sha256": "829b9c7382357631aea7ff7154e0ff3d1446edf44135013ce994b4a73b85b044"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/ThreePill.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/ThreePill.m",
+    "bytes": 3275,
+    "sha256": "9479b9d1cf7ed752c786fd5ac61449f5beb4833bacd19e14c559935bf166d636"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Dist/TwoPill.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Dist/TwoPill.m",
+    "bytes": 3878,
+    "sha256": "e84bb493b937cf398ad034b2f91d8f124cbfb6a2c44c1f38fa99442ecee87e74"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/FieldCalc.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/FieldCalc.m",
+    "bytes": 1847,
+    "sha256": "ef9f192f9ee1ba3a499a9215919e47dbf15331ca6d8cb1cf6bb30c1ab506b938"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250226_TM_410_Pill/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250226_TM_410_Pill/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "5ae2a6e73baf2b11ac2627316ebe28f412274aad5aff043db4262f9a8928276d"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250226_TM_4610_9/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250226_TM_4610_9/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "6ab1ac7f25a41d4cdc4ec34fe915a1dd2c405615935023a9214ee91cdef0a520"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_1/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_1/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "2c9a87df7a1c57a7fe0e42483dcfafd4685c387aa9c5ec784c426e94dd5cd4f0"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_2/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_2/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "52ec68679bfb25a85d041b069b69ee2e0698b7aa1d3508774569cca5ccb35275"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_3/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_3/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "a7bfe659075918df431164b3b5734a2b3a7c15f542f850589ee64ae3a9c2dc14"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_5/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250310_TM_4610_5/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "9972cbaff050677fac9256512e975a28743254a6701b853a5e0d78eee3f9d842"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250310_TM_610_Pill/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250310_TM_610_Pill/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "6cbe657bd4ebd8e823bfe4052616026cd67183672ec32e979e64802a21b982ae"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_+3_7_50/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_+3_7_50/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "3dd24b3f1dcb20b7ab5b846d668d2245c002f001151ac8efc5c192b8d9554ac5"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-11_7_50/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-11_7_50/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "870ed64da98251d8e0326c47feaa31bdf25fda21ef10244741132cec30be6cc5"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-3_7_50/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-3_7_50/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "107ad66324539f909ce5feb2727b59531ff071ff742b210a0cb2022bb80f0cde"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-7_7_50/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250317_TM24610_-7_7_50/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "352a46bdd02dff9388e7c59793e49fd02714e56fdec698a9235e6ea4242a3e3f"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/Maps2/250608_TM4610_6.7/Mode Frequencies_Mode 1.txt",
+    "collected": "research/RF_Track/Scripts/uniform_beam/Maps2/250608_TM4610_6.7/Mode Frequencies_Mode 1.txt",
+    "bytes": 16,
+    "sha256": "e0986897ae12cbb86c4d6d187e111d8ad60c3a83010663c2ace2fc6a9ce3f407"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/TM010_PW.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/TM010_PW.m",
+    "bytes": 6135,
+    "sha256": "20247a0f30375da0fc3c15cf347e58248327e0bf116c65f9fd60b03804f5250f"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/TM0210_PW.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/TM0210_PW.m",
+    "bytes": 4475,
+    "sha256": "53d76025bd17c2b9767578c2094e1394209c531a9c3e3a44d3ab72670c217574"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/TM210_PW.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/TM210_PW.m",
+    "bytes": 4395,
+    "sha256": "545bc888257061520bfc693e90c8ed438bded73c863dff30a6cb9ac43fa2941a"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/TM4610_UniformComp.dat",
+    "collected": "research/RF_Track/Scripts/uniform_beam/TM4610_UniformComp.dat",
+    "bytes": 7944,
+    "sha256": "8e85d9989f490771dde5cb5da83488c0f35b6481a7bfed96122062ba306975a1"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/TwoMultiPill.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/TwoMultiPill.m",
+    "bytes": 3806,
+    "sha256": "40b26f647124fba0a764e4b8e36b0de476fbcc7902843f6204658769832b47bf"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/main.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/main.m",
+    "bytes": 61442,
+    "sha256": "d2a7e60b479ae705dd74b58d41ac971379c6c9647ce877a73f24b87d8b4300e2"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/main_250226.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/main_250226.m",
+    "bytes": 23456,
+    "sha256": "9d4162f79e0cc96c0a8505aa68a363a89566b85ca7924a10204e6b10b817172b"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/main_250311.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/main_250311.m",
+    "bytes": 27667,
+    "sha256": "11fa61e7e992a6dd981bb610b9de0dcdbd3547a72b91c052e45e7842e5f704d2"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/main_250312.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/main_250312.m",
+    "bytes": 58764,
+    "sha256": "22ada1fae84ee43a4a15cd26472b40931765387cce27de66b91e97f37c5b4097"
+  },
+  {
+    "source": "RF_Track/Scripts/uniform_beam/test_plot_dist.m",
+    "collected": "research/RF_Track/Scripts/uniform_beam/test_plot_dist.m",
+    "bytes": 2176,
+    "sha256": "1f64cc381283685236ab1380253ec81a497672e709ab2be2710ffa9ebfc1674c"
+  }
+]

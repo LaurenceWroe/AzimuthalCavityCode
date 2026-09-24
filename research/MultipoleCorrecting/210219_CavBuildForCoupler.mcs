@@ -1,0 +1,371 @@
+' CylinderMaker
+
+Sub Main ()
+
+Dim Lz As Double
+
+Dim MeshBomb As Integer
+Dim CylMaker As Integer
+
+Dim PipeR As Double
+Dim PipeL As Double
+Dim NoLPoints As Integer
+Dim NoCirclePoints As Integer
+Dim Rmin As Double
+Dim Rmax As Double
+Dim RPoints As Integer
+Dim Theta As Double
+Dim z As Double
+Dim x As Double
+Dim y As Double
+Dim Pi As Double
+Dim R As Double
+Dim xOffset As Double
+Dim yOffset As Double
+Dim ExpFactor As Double
+Dim CurveName As String
+Dim SubCurveName As String
+Dim BombName As String
+Dim SubBombName As String
+Dim MeshCylName As String
+Dim MeshFactor As Double
+Dim SavePolyName As String
+Dim ComponentName As String
+Dim SymPlane As Integer
+Dim LargestR As Double
+Dim SmallestR As Double
+Dim PipeAdd As Integer
+Dim BlendR As Double
+
+MeshBomb = False ' Define as true in order to build a cylinder into the cavity with which to create a high density mesh
+CylMaker = False ' Define as true to make cylinders
+SymPlane = False ' Define as true to put in single symmetry plane
+PipeAdd = False
+
+' %%%%%% Pipe Spec %%%%%%%%
+PipeR = 5
+PipeL = 80 '40
+BlendR = 0.1 ' 0.1
+Lz = 34.036  ' 10
+
+' %%%%%%% Cylinger/Mesh Stuff %%%%%%%
+ComponentName = "Polygon"
+SavePolyName = "ShapeTest"
+NoLPoints = 5 ' Integer
+NoCirclePoints = 360 ' Integer
+
+xOffset = 0 ' Default 0
+yOffset = 0 ' Default 0
+MeshFactor = 10 ' Default is 10
+
+' FIRST RUN
+ExpFactor = 1 ' Double to set the range of R values (defines the log space interval)
+RPoints = 11 ' Integer
+Rmin = 0.1  ' Double
+Rmax = 10 ' Double
+' SECOND RUN 20201109 ONWARDS
+ExpFactor = 0.5
+RPoints = 21
+Rmin = 0.2
+Rmax = 10
+CurveName = "cylinder_R_"
+
+BombName = "bomb_R_"
+
+SubBombName = BombName
+SubCurveName = CurveName
+Pi = 4*Atn(1)
+
+Dim CSTShapePath As String
+CSTShapePath = "C:\Users\lawroe\cernbox\Code\MultipoleCorrecting\Shapes\Root2-m_2_Cm_10_C0_1.txt"
+Dim CSTPipePath As String
+CSTPipePath = "C:\Users\lawroe\cernbox\Code\MultipoleCorrecting\Shapes\POLES_Root2-m_2_Cm_10_C0_1.txt"
+
+Dim TempName As String
+TempName = "Test"
+
+
+
+' %%%%%%%%%%%%%%% Code Begins %%%%%%%%%%%%%%%%
+'Open "H:\TEST.txt" For Output As #22
+With Spline
+     .Reset
+     .Name "BessShape"
+     .Curve "curve1"
+	Open CSTShapePath For Input As #1 ' Open file for input
+		Dim row_number As Integer
+		row_number = 0
+		Do Until EOF(1)
+			Line Input #1, LineFromFile
+			LineItems = Split(LineFromFile,",")
+			x = LineItems(0)
+			y = LineItems(1)
+			'Print #22, x;
+			'Print #22, y
+			.Point CStr(x), CStr(y)
+			row_number = row_number +1
+			If row_number = 1 Then
+				.SetInterpolationType "PointInterpolation"
+				LargestR = x
+			ElseIf row_number = 181 Then
+				SmallestR = y
+				'MsgBox CStr(SmallestR)
+			End If
+		Loop
+	Close #1 ' Close fil
+	.Create
+End With
+'Close #22
+
+
+With CoverCurve
+     .Reset
+     .Name "TempFace"
+     .Component ComponentName
+     .Material "Vacuum"
+     .Curve "curve1:BessShape"
+     .DeleteCurve "True"
+     .Create
+End With
+
+Pick.PickFaceFromId "Polygon:TempFace", "1"
+
+With Extrude
+     .Reset
+     .Name SavePolyName
+     .Component "Polygon"
+     .Material "Vacuum"
+     .Mode "Picks"
+     .Height Lz
+     .Twist "0.0"
+     .Taper "0.0"
+     .UsePicksForHeight "False"
+     .DeleteBaseFaceSolid "True"
+     .ClearPickedFace "True"
+     .Create
+End With
+
+
+If PipeAdd = True Then
+	Open CSTPipePath For Input As #1 ' Open file for input
+	Dim xPole As Double
+	Dim yPole As Double
+	Dim xCenter As Double
+	Dim yCenter As Double
+	Line Input #1, LineFromFile
+	LineItems = Split(LineFromFile,",")
+	xPole = LineItems(0)
+	yPole = LineItems(1)
+	Close #1 ' Close fil
+	Dim oo As Integer
+	For oo = 1 To 5 STEP 1
+		If oo = 1 Then
+			xCenter = 0
+			yCenter = 0
+		ElseIf oo = 2 Then
+			xCenter = xPole
+			yCenter = 0
+		ElseIf oo = 3 Then
+			xCenter = 0
+			yCenter = yPole
+		ElseIf oo = 4 Then
+			xCenter = -xPole
+			yCenter = 0
+		ElseIf oo = 5 Then
+			xCenter = 0
+			yCenter = -yPole
+		End If
+		With Cylinder
+		     .Reset
+		     .Name "pipe_a" & CStr(oo)
+		     .Component "Polygon"
+		     .Material "Vacuum"
+		     .OuterRadius CStr(PipeR)
+		     .InnerRadius "0.0"
+		     .Axis "z"
+		     .Zrange CStr(-PipeL), "0"
+		     .Xcenter CStr(xCenter)
+		     .Ycenter CStr(yCenter)
+		     .Segments "0"
+		     .Create
+		End With
+		With Cylinder
+		     .Reset
+		     .Name "pipe_b" & CStr(oo)
+		     .Component "Polygon"
+		     .Material "Vacuum"
+		     .OuterRadius CStr(PipeR)
+		     .InnerRadius "0.0"
+		     .Axis "z"
+		     .Zrange CStr(Lz), CStr(Lz+PipeL)
+		     .Xcenter CStr(xCenter)
+		     .Ycenter CStr(yCenter)
+		     .Segments "0"
+		     .Create
+		End With
+	Solid.Add "Polygon:ShapeTest", "Polygon:pipe_a" & CStr(oo)
+	Solid.Add "Polygon:ShapeTest", "Polygon:pipe_b" & CStr(oo)
+	'If oo = 1 Then
+	'	Pick.PickEdgeFromId "Polygon:ShapeTest", "8", "7"
+'		Solid.BlendEdge "0.1"
+'		Pick.PickEdgeFromId "Polygon:ShapeTest", "9", "8"
+'		Solid.BlendEdge "0.1"
+	'End If
+	Next oo
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "30", "29"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "24", "23"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "26", "25"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "32", "31"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "28", "27"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "31", "30"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "25", "24"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "27", "26"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "33", "32"
+	Pick.PickEdgeFromId "Polygon:ShapeTest", "29", "28"
+	Solid.BlendEdge Cstr(BlendR)
+
+End If
+
+
+
+Dim nn As Integer
+If MeshBomb = True Then
+	With Polygon
+		Dim count As Integer
+		Dim NamePrev As String
+		count = 0
+		For nn = RPoints-1 To 1 STEP -1
+			If nn < RPoints Then
+				R = Rmin + (nn-1)*(Rmax-Rmin)/(RPoints-1)/((RPoints-nn)^ExpFactor)
+			Else
+				R = Rmax
+			End If
+			Dim SaveBombName As String
+			SaveBombName = Cstr(Int(R*10000)/10000)
+
+			MeshCylName = BombName & SaveBombName
+			With Cylinder
+			     .Reset
+			     .Name MeshCylName
+			     .Component ComponentName
+			     .Material "Vacuum"
+			     .OuterRadius Cstr(R) ' May want to redefine this?
+			     .InnerRadius "0.0"
+			     .Axis "z"
+			     .Zrange "0", Lz
+			     .Xcenter Cstr(xOffset)
+			     .Ycenter Cstr(yOffset)
+			     .Segments "0"
+			     .Create
+			End With
+
+
+
+			If count > 0 Then
+				Solid.Insert  NamePrev, ComponentName & ":" & MeshCylName
+			Else
+				Solid.Insert ComponentName & ":" & SavePolyName, ComponentName & ":" & MeshCylName
+			End If
+			NamePrev = ComponentName & ":" & MeshCylName
+			count = count + 1
+
+
+			If nn = 1 Then
+				'Group.Add "meshgroup3", "mesh"
+				Dim mm As Integer
+				Dim NewMeshName As String
+				For mm = RPoints-1 To 1 STEP -1
+					If mm < RPoints Then
+						R = Rmin + (mm-1)*(Rmax-Rmin)/(RPoints-1)/((RPoints-mm)^ExpFactor)
+					Else
+						R = Rmax
+					End If
+					NewMeshName = "meshgroup" & Cstr(mm)
+					Group.Add NewMeshName, "mesh"
+					SaveBombName = Cstr(Int(R*10000)/10000)
+					MeshCylName = BombName & SaveBombName
+					With MeshSettings 'CST 2019
+					     With .ItemMeshSettings ("group$" & NewMeshName)
+					          .SetMeshType "Tet"
+					          .Set "LayerStackup", "Automatic"
+					          .Set "LocalAutomaticEdgeRefinement", "0"
+					          .Set "LocalAutomaticEdgeRefinementOverwrite", 0
+					          .Set "MaterialIndependent", 0
+					          .Set "OctreeSizeFaces", "0"
+					          .Set "PatchIndependent", 0
+					          .Set "Size", CStr(R/MeshFactor)
+					     End With
+					End With
+				Group.AddItem "solid$" & ComponentName & ":" & MeshCylName, NewMeshName
+			 	Next mm
+		     End If
+	     Next nn
+	End With
+End If
+
+
+
+If CylMaker = True Then
+	With Polygon3D
+		.Reset
+		.Version 10
+		.Name CurveName & "OnAxis"
+		.Curve SubCurveName & "OnAxis"
+
+		Dim ll As Integer
+		For ll = 0 To NoLPoints
+			z = Lz/NoLPoints*ll
+			x = 0
+			y = 0
+			.Point CStr(x), CStr(y),CStr(z)
+		Next ll
+		.Create
+
+		For nn = 1 To RPoints-1
+			If nn < RPoints Then
+				R = Rmin + (nn-1)*(Rmax-Rmin)/(RPoints-1)/((RPoints-nn)^ExpFactor)
+			Else
+				R = Rmax
+			End If
+			Dim SaveCurveName As String
+			SaveCurveName = Cstr(Int(R*10000)/10000)
+		     .Reset
+		     .Version 10
+		     .Name CurveName & SaveCurveName
+		     .Curve SubCurveName & SaveCurveName
+			 Dim ii As Integer
+
+			 For ii = 0 To NoLPoints
+				z = Lz/NoLPoints*ii
+		     	Dim jj As Integer
+
+		     	For jj = 0 To NoCirclePoints-1
+					Theta = 2*Pi/NoCirclePoints*jj
+					x = R*Cos(Theta) + xOffset
+					y = R*Sin(Theta) + yOffset
+					.Point CStr(x), CStr(y),CStr(z)
+		     	Next jj
+		     Next ii
+		     .Create
+		Next nn
+	End With
+End If
+
+If SymPlane = True Then
+	With Boundary
+	     .Xmin "electric"
+	     .Xmax "electric"
+	     .Ymin "electric"
+	     .Ymax "electric"
+	     .Zmin "electric"
+	     .Zmax "electric"
+	     .Xsymmetry "none"
+	     .Ysymmetry "magnetic"
+	     .Zsymmetry "none"
+	     .ApplyInAllDirections "False"
+	End With
+End If
+
+Curve.DeleteCurve "curve1"
+
+End Sub

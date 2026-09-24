@@ -1,0 +1,22 @@
+# No Git repository has been initialized. These rules are for a later push.
+.DS_Store
+*.asv
+*~
+octave-workspace
+*.oct
+*.mex*
+*.cst
+*.h5
+*.hdf5
+/outputs/*
+!/outputs/README.md
+/maps/*
+!/maps/README.md
+# Prevent accidental dense exports in the historical source tree.
+**/Maps/**/*.dat
+**/Maps2/**/*.dat
+**/Maps/**/Mode*_e*.txt
+**/Maps/**/Mode*_h*.txt
+**/Maps2/**/Mode*_e*.txt
+**/Maps2/**/Mode*_h*.txt
+**/Data/CSTFile*/
